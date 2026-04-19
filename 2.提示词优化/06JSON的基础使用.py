@@ -5,7 +5,7 @@ d={
     "gender":"男"
 }
 s=json.dumps(d,ensure_ascii=False)
-print(s)
+print(s,type(s))
 l=[
     {
     "name":"周杰伦",
